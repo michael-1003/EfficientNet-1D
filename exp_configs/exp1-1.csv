@@ -1,0 +1,14 @@
+case_num,dataset,normalization,batch_size,max_epoch,optimizer,learning_rate,lr_step,lr_decay,l2_decay,use_tensorboard,model_name,alpha,beta,gamma,phi,loss_fn,kernel_size
+0,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,3
+1,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,2,1,1,1,cross_entropy,3
+2,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,5
+3,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,3,1,1,1,cross_entropy,3
+4,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,7
+5,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,4,1,1,1,cross_entropy,3
+6,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,9
+7,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,5,1,1,1,cross_entropy,3
+8,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,11
+9,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,6,1,1,1,cross_entropy,3
+10,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,13
+11,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,7,1,1,1,cross_entropy,3
+12,exp_freq,TRUE,32,60,adam,1.00E-03,30,0.1,0.00E+00,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,15

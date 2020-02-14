@@ -1,0 +1,5 @@
+case_num,dataset,normalization,batch_size,max_epoch,optimizer,learning_rate,lr_step,lr_decay,l2_decay,use_tensorboard,model_name,alpha,beta,gamma,phi,loss_fn,kernel_size
+0,nlu1,TRUE,16,20,adam,1.00E-04,10,0.5,0,FALSE,cnn1d_adaptive,1,1,1,1,cross_entropy,3
+1,nlu1,TRUE,16,20,adam,1.00E-04,10,0.5,0,FALSE,cnn1d_adaptive,1,1.4,1,1,cross_entropy,3
+2,nlu1,FALSE,16,20,adam,1.00E-04,10,0.5,0,FALSE,cnn1d_adaptive,2,1,1,1,cross_entropy,3
+3,nlu1,FALSE,16,20,adam,1.00E-04,10,0.5,0,FALSE,cnn1d_adaptive,1.6,1.1,1,1,cross_entropy,3
