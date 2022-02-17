@@ -1,3 +1,5 @@
+# No longer updated (archived).
+
 # EfficientNet-1D
 
 <span style='color:red'>**(Update in progress)**</span>
